@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/icon2.svg"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      sizes="32x32"
+      href="assets/images/icon2.svg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Carolina Calixto | Front-end Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Carolina Calixto</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img src="assets/images/icon2.svg" alt="imagem de uma menina com cabelos compridos, sorrindo" class="hero-img" />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello! My name is Carolina Calixto, I'm a brazilian front-end developer who's currently studying HTML, CSS and
+          JavaScript/TypeScript. In this portfolio I'm showing my habilities to create projects in responsive web design and implementing
+          creative ideas through code!
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        The current main tools used by me are HTML, CSS, JavaScript, Git and Figma.
+      </p>
+      <p>
+        I'm also interested in learning more about Kotlin (for mobile development), TypeScript, Flutter and Go.
+      </p>
+      <p>
+        My hobbies include painting, embroidering, cooking, watching tv shows and spend quality time with friends and family!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="icon do logo de HTML"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="icon do logo de CSS"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="icon do logo de JavaScript"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-android-studio.svg"
+            alt="icon do logo de Android Studio"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-kotlin.svg"
+            alt="icon do logo de Kotlin"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt="icon do logo de Git"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-figma.svg"
+            alt="icon do logo de Figma"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-github.svg"
+            alt="icon do logo de Github"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/tributepage.png"
+            alt="tribute-page"
+            class="project-pic"
+          />
+          <h3 class="project-title">Tribute Page</h3>
+          <p class="project-details">
+            For this project, I used HTML and CSS to create a tribute page dedicated to Júlio Lancellotti.
+          </p>
+          <a href="https://codepen.io/calixtocarolina/full/xxYVPrB" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/form.png"
+            alt="survey-form"
+            class="project-pic"
+          />
+          <h3 class="project-title">Coding Bootcamp Survey Form</h3>
+          <p class="project-details">
+            For this project, I used HTML and CSS to create a survey form.
+          </p>
+          <a href="https://codepen.io/calixtocarolina/full/jOZqoVE" target="_blank" class="">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/login.png"
+            alt="página de Login"
+            class="project-pic"
+          />
+          <h3 class="project-title">iBeauty - Login Web Page</h3>
+          <p class="project-details">
+            For this project, I used HTML, CSS and JavaScript to create a login website for a Beauty Tech company.
+          </p>
+          <a href="https://github.com/calixtocarolina/iBeauty-login" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/myyollpl" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.instagram.com/calistogalilei/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/carolinacalixtodev/?locale=en_US" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/calixtocarolina/" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://instagram.com/calistogalilei" target="_blank"
+          >Carolina Calixto</a
+        > using the template of <a href="https://twitter.com/koladechris" target="_blank"
+        >Kolade Chris</a
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
